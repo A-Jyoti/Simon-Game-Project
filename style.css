@@ -57,6 +57,18 @@ body{
     background-color: red;
 }
 
+.start-div{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.start{
+    padding: 5px 15px;
+    background-color: blueviolet;
+    border: 3px solid wheat;
+    border-radius: 7px;
+}
+
 #green{
 
 }
