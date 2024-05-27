@@ -78,6 +78,8 @@ function startOver(){
     level = 0;
     i = 1;
     gamePattern = [];
+    $(".start").fadeIn(100);
+    $(".start").text("Restart");
 }
 
 
@@ -90,6 +92,19 @@ $(document).keypress(function(){
 
 });
 
+
+//for starting using button
+$(".start").fadeIn(100);
+$(".start").click(function(){
+    if(i===1){
+        
+        nextSequence();
+        i=0;
+        $(".start").fadeOut(100);
+
+    }
+
+});
 
 //for taking button press as input 
 $(".btn").click(function(event){
